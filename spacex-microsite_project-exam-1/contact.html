@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX - Contact</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html" id="logo-link-wrapper">
+            <img src="./images/spacex_logo.png" alt="" id=logo />
+        </a>
+        <button id="menu-button">
+            <span id="menu-bar-1"></span>
+            <span id="menu-bar-2"></span>
+            <span id="menu-bar-3"></span>
+        </button>
+
+        <nav>
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-item-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-link" href="./launch.html">Launch</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-link" href="./about.html">About</a>
+                <li class="nav-item">
+                    <a class="nav-item-link active" href="./contact.html"> Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main>
+        <div class="cover-img" id="contact-cover">
+            
+        </div>
+        <h2 class="page-title">Contact Us</h2>
+
+        <form id="contact-form" class="form">
+            <div class="form-inputs-container">
+                <label class="form-label">Full Name <span class="validation-message"></span>
+                    <input type="text" id="name" name="fullName" placeholder="Your name" class="form-input">
+                </label>
+                <label class="form-label">Email <span class="validation-message"></span>
+                    <input type="email" id="email" name="email" placeholder="Your email" class="form-input">
+                </label>
+                <label class="form-label">Phone <span class="validation-message"></span>
+                    <input type="phone" id="phone" name="phone" placeholder="Your phone" class="form-input">
+                </label>
+                <label class="form-label">Subject <span class="validation-message"></span>
+                    <textarea class="form-textarea" id="subject" name="subject" placeholder="Your Subject"
+                        style="height:200px"></textarea>
+                </label>
+            </div>
+            <div class="form-buttons-container">
+                <input type="submit" value="Submit" class="form-submit-button">
+            </div>
+        </form>
+
+    </main>
+    <footer class="footer">
+        <ul class="footer-links">
+            <li>
+                <a href="./contact.html"> Contact Us</a>
+            </li>
+            <li>
+                <a href="./about.html">About Us</a>
+            </li>
+            <li>
+                <a href="#">FAQs</a>
+            <li>
+                <a href="#">Privacy</a>
+            </li>
+        </ul>
+        <ul class="company-links">
+
+        </ul>
+    </footer>
+    <script src="./js/common.js"></script>
+    <script src="./js/validation.js"></script>
+    <script src="./js/contact.js"></script>
+</body>
+</html>
